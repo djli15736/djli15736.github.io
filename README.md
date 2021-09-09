@@ -28,7 +28,7 @@ Link to repository: https://github.com/djli15736/djli15736.github.io
 <ul> 
   <li> Do the JavaScript tutorials on htmldog to get better at JS </li>
   <li> Make a timer/stopwatch? </li>
-  <li> Practing more using git </li>
-  <li> Learn bootstrap </li>
+  <li> Practing more using git with the <a href = "https://learngitbranching.js.org/"> tutorials. </a> </li>
+  <li> Learn bootstrap using the provided <a href = "https://sun.iwu.edu/~mliffito/cs_codex/posts/bootstrap/"> tutorials. </a> </li>
   <li> Maybe make a choose your own adventure as a cool app </li>
 </ul>
