@@ -3,7 +3,7 @@ Name: Daniel Li
 
 Email: djli@udel.edu
 
-Link to repository: https://github.com/djli15736/djli15736.github.io
+Link to repository: <a href = "https://github.com/djli15736/djli15736.github.io"> https://github.com/djli15736/djli15736.github.io </a>
 
 # Portfolio
 <strong> Week 1 </strong>
