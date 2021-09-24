@@ -22,6 +22,7 @@ Link to repository: <a href = "https://github.com/djli15736/djli15736.github.io"
   <li> I also made <a href = "https://djli15736.github.io/basicchatapp2.github.io/"> this </a> chat app. You type in your name, and then if you type in messages and send them, it will show that you were the one who sent the message. I tried to incorporate some of the css and bootstrap I learned by centering the text and putting things in containers. The functionality was also different from the basic button and the stopwatch because I had to handle inputs and figure out how to append them to a list and have the list grow with each message sent. I tried to have a button next to the name input and have the app save who you were, but I didn't end up figuring that out in the end. Also, this was the first app I did where I only committed using git and not directly editing the text. </li>
   <li> I tried to make a React app like the one we did in class. I used a lot of components to do things like display pictures, text, and lists. I also used useState to have a clickable button that cycled through quotes, similar to the prompt button we did in class. I then spent a lot of time trying to figure out how to get the website deployed. I debugged a lot and made a whole bunch of commits trying to figure things out, but so far I haven't managed to do it yet. <a href = "https://github.com/djli15736/bobbybreacts.github.io"> Here's </a> the repository of what I've tried though. </li>
 
+
 <strong> Week 3 </strong>
 <ul>
   <li> I watched the entire ta-trainer video. </li>
