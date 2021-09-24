@@ -72,7 +72,7 @@ Link to repository: <a href = "https://github.com/djli15736/djli15736.github.io"
   <li> Finish deploying my React app </li>
   <li> Work on a choose your own adventure since I didn't get to do it last week </li>
   <li> Try to improve my React skills by making more complicated components and maybe using hooks like useEffect </li>
-  <li> Do stuff with git beyond just commiting and pushing. I never got to the tutorials <a href = "https://learngitbranching.js.org/"> here </a>. 
+  <li> Do stuff with git beyond just commiting and pushing. I never got to the tutorials <a href = "https://learngitbranching.js.org/"> here </a>. </li>
 </ul>
 
 <strong> Week 3 </strong>
