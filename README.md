@@ -31,6 +31,16 @@ Link to repository: <a href = "https://github.com/djli15736/djli15736.github.io"
   <li> This time I only used git to make any changes and commits to my portfolio! </li>
 </ul>
 
+<strong> Week 4 </strong>
+<ul>
+  <li> I finally made a CYOA (sort of) app on react. <a href = "https://github.com/djli15736/cyoa-game">This</a> is the repository for it and <a href = "https://djli15736.github.io/cyoa-game/">this</a> is the actual app. It was done entirely by scratch unlike when I followed along with the ta-trainer video. </li>
+  <li> I didn't think it was realistic to write out a plot for an actual adventure, so instead I went with allowing the player to buy powers that they could use on some fantasy adventure of their choice. The most difficult part was the points system. The buttons were in the PowerViewer cards, but the clicks affected the PointBox component. This meant that I had to use useState to connect the points between App.tsx, the PointBox component, and the PowerViewer component. Then, once a button was clicked, it called setPoints which modified 'points' for the entire app by subtracting the power cost before displaying the new value in PointBox. The other issue I had was with displaying the points. At first, I tried to display them by changing the HTML directly, but that led to a delay whenever a button was clicked. Instead, I ended up just displaying the value of points directly in PointBox, and that led to the correct updates. </li>
+  <li> The other useState I used was 'selected'. I wanted the PowerViewer cards to light up green when selected to indicate that you've picked a power. I made 'selected' a boolean and used 'setSelected' to change the value of the boolean whenever the button was clicked. This lets the player select and deselect a power. Additionally, I had to use a boolean expression in the className of the cards to switch between 'power-card-clicked' and 'power-card'. These different classes have different CSS backgrounds which let me switch back and forth between green and white when selected and deselected. Lastly I added an addPoints function so that deselecting a power would add back the points you spent on it </li>
+  <li> The last difficult part of this app was the Bootstrap formatting. I had initial issues with the PowerViewer cards being different sizes due to the differing amounts of text content in them. I tried directly modifying the heights, but when that didn't work, I used CardGroup which aligned all the heights. The other issue was making PointBox stay on the screen while you scrolled, which would make keeping track of your points a lot easier. I ended up turning PointBox into a footer but had difficulties with using CSS to make it a good size. I eventually figured it out, but then the footer was covering the bottom row of buttons. Once again, I used CSS to add white space to the bottom of the website which finally allowed the bottom row to be accessed. </li>
+  <li> In addition to the CSS and Bootstrap I used to adjust formatting, sizing, and alignment, I also used CSS to add borders around the cards and add more background colors. Not sure if the colors clash though. </li>
+  <li> Once again used git for all changes. </li>
+</ul>
+
 # Changelog
 <strong> Week 1 </strong>
 <ul> 
@@ -55,6 +65,12 @@ Link to repository: <a href = "https://github.com/djli15736/djli15736.github.io"
   <li> Watched the ta-trainer video </li>
   <li> Added links to repository of my quote game and the website of it </li>
   <li> Added link to the ta-trainer where I added my tests </li>
+</ul>
+
+<strong> Week 4 </strong>
+<ul>
+  <li> Added links to the repository of the CYOA game and the actual app </li>
+  <li> Added explanation of the step-by-step process of making the app to show how I needed to use TypeScript, React, HTML, etc. and demonstrate knowledge on these subjects </li>
 </ul>
 
 # TODO
